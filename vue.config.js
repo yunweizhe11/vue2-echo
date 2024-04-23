@@ -1,4 +1,6 @@
+//引入包
 const path = require('path')
+//返回一个绝对路径
 function resolve(dir) {
     return path.join(__dirname, dir)
 }
